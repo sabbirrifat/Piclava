@@ -109,7 +109,7 @@ function UploadProductPage(props) {
           </div>
           <div className="form-group row">
             <label htmlFor="textarea" className="col-4 col-form-label">
-              Text Area
+              Description
             </label>
             <div className="col-8">
               <textarea
