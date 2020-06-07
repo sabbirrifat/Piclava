@@ -75,7 +75,7 @@ function UploadProductPage(props) {
 
   return (
     <div className="uploadPage">
-      <div style={{ maxWidth: "700px", margin: "2rem auto" }}>
+      <div style={{ maxWidth: "700px", margin: "5rem auto" }}>
         <div style={{ textAlign: "center", marginBottom: "2rem" }}>
           <h2 className="headLine topTitle"> Upload Your Photos</h2>
         </div>
