@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-link a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-link a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+#wrapper{
+    background: url(/images/headerImage.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 75vh;
+}
+
+.hero h1{
+    font-size: 48px;
+    align-items: center;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 30%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero p{
+    margin-top: 20px;
+
+    color: #ffffff;
+}
+
+.hero button{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 200px;
+    color: rgb(34, 34, 34);
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+#wrapper img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* Serevices Part */
+
+.headLine{
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    animation: fadeUp .5s forwards;
+    animation-delay: .5s;
+
+}
+
+
+.headLine::before{
+    content: '';
+    width: 400px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #d6251d;
+    transform: translateY(63px);
+    animation: grow .5s forwards;
+    animation-delay: 1.2s;
+}
+.headLine::after{
+    content: '';
+    width: 50px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #d6251d;
+    transform: translateY(12px);
+    
+}
+
+.subHeadLine{
+    color: rgb(34, 34, 34);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.services p{
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+#services{
+    overflow: hidden;
+    padding: 80px 15%;
+}
+
+.services{
+    padding: 4%;
+}
+
+.services h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.getTheApp{
+   
+    padding-left: 3%;
+
+}
+
+.getTheApp h1{
+    font-size: 36px;
+    line-height: 40px;
+    color: rgb(34, 34, 34);
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.getTheApp p{
+    font-size: 16px;
+    font-weight: 20px;
+    margin-bottom: 30px;
+}
+
+.getTheApp .storeLogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+}
+
+.storeLogo img{
+    margin-right: 20px;
+}
+
+.appWave{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+
+#getTheApp{
+    margin-left: 14%;
+    position: relative;
+    
+    
+}
+
+.getTheApp .appText{
+    margin-top: 5%;
+    padding-right: 10%;
+}
+
+.mobileMockBack img{
+    width: 340px;
+    height: auto;
+    
+}
+
+/* Editors Choice */
+
+#editorChoice{
+    overflow: hidden;
+    margin-top: 0;
+    background: url(/images/backgroundImage1.png) center no-repeat;
+    background-size: cover;
+    height: 35vh;
+}
+
+#editorChoice h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    line-height: 68px;
+    margin-top: 30px;
+}
+
+#editorChoice img{
+    width: 128px;
+    height: 128px;
+}
+
+
+/* Image Gallery */
+
+#ImageShow{
+    margin-top: 5%;
+}
+
+#ImageShow img{
+    width: 100%;
+}
+
+.gallery{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(400px, 1fr));
+        grid-gap: 40px;
+        position: relative;
+}
+
+.totalList{
+    margin: 3% 5%;
+}
+
+.totalList ul li{
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.55);
+    box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.55);
+}
+
+.totalList ul li:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.btnColor{
+    height: 64px;
+    width: auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    line-height: 64px;
+    padding: 0 32px;
+    border-radius: 12px;
+
+}
+
+.btnColor:hover,
+.btnColor:focus
+{
+    text-decoration: none;
+    border:none;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+
+
+/* Prize */
+
+#Prize{
+    overflow: hidden;
+    margin-top: 5%;
+    background: url(/images/backgroundImage2.png) center no-repeat;
+    background-size: cover;
+    height: 35vh;
+}
+
+#Prize h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    line-height: 68px;
+    margin-top: 30px;
+}
+
+#Prize img{
+    width: 128px;
+    height: 128px;
+}
+
+
+/* Quest */
+
+#Quest{
+    overflow: hidden;
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#Quest .cup{
+    width: 64px;
+}
+
+#Quest .sideImg{
+    width: 500px;
+    
+}
+
+#Quest h1{
+    margin-top: 30px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+
+
+/* Licensing */
+
+#Licensing{
+    overflow: hidden;
+    background: url(/images/backgroundImage3.png) center no-repeat;
+    background-size: cover;
+    height: 35vh;
+}
+
+#Licensing h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    line-height: 68px;
+    margin-top: 30px;
+}
+
+#Licensing img{
+    width: 128px;
+    height: 128px;
+}
+
+/* Sale Photo */
+
+#sellPhoto{
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+#sellPhoto .piggy{
+    width: 64px;
+}
+
+#sellPhoto .sideImg{
+    width: 100%;
+}
+
+#sellPhoto h1{
+    margin-top: 30px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+/* Resposive Area */
+
+
+@media screen and (max-width: 768px) {
+
+    .headLine{
+        font-size: 26px;
+    }
+    .headLine::before{
+        width: 300px;
+    }
+    .headLine::after{
+        transform: translateY(24px);
+    }
+    .gallery{
+        grid-template-columns: repeat(2, minmax(400px, 1fr));
+    }
+   
+  }
+
+  @media screen and (max-width: 600px) {
+    .headLine{
+        font-size: 22px;
+    }
+    .headLine::before{
+        width: 300px;
+    }
+    .headLine::after{
+        transform: translateY(28px);
+    }
+    .gallery{
+        grid-template-columns: repeat(1, minmax(400px, 1fr));
+    }
+    
+  }
+
+  @media screen and (max-width: 375px) {
+    .gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+  }

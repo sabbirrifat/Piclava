@@ -1,0 +1,87 @@
+.landingPageStyle{
+    background: #f8f9fa;
+}
+
+
+
+
+
+.imageShowCase{
+    padding: 0% 8%;
+}
+
+.cardGallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    position: relative;
+}
+
+
+.cardStyle{
+    padding: 0;
+    
+
+    -webkit-box-shadow: 4px 10px 25px -1px rgba(0,0,0,0.68);
+-moz-box-shadow: 4px 10px 25px -1px rgba(0,0,0,0.68);
+box-shadow: 4px 10px 25px -1px rgba(0,0,0,0.68);
+}
+
+.cardStyle:hover{
+    z-index: 10;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
+
+#filter{
+    padding: 0% 8%;
+    margin-bottom: 3%;
+}
+
+
+
+
+/* Resposive Area */
+
+
+
+  @media screen and (max-width: 1300px) {
+
+    .cardGallery{
+        grid-template-columns: repeat(2,  1fr) !important;
+    }
+   
+  }
+
+
+
+@media screen and (max-width: 900px) {
+
+    .MainTitle{
+        font-size: 24px !important;
+    }
+    .MainTitle::after{
+        transform: translateY(27px) !important;
+    }
+   
+  }
+
+  @media screen and (max-width: 700px) {
+    .MainTitle{
+        font-size: 18px !important;
+    }
+
+    .cardGallery{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .MainTitle::after{
+        transform: translateY(33px) !important;
+    }
+    
+  }
+
+  

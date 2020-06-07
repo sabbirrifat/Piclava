@@ -1,0 +1,43 @@
+.checkBoxStyle{
+    width: 100%;
+    background-color: #8b8888;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+.checkBoxStyle .card-body{
+    padding: 0px;
+}
+
+.checkBoxStyle .card-title{
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    margin-left: 5px;
+    color: rgb(34, 34, 34);
+}
+
+.checkBoxes{
+    padding: 1.2%;
+    font-size: 12px;
+    border-top: 1px solid #d9d9d9;
+    background-color: #ffffff;
+}
+
+.checkBoxes input{
+    margin-left: 0px;
+}
+
+.checkBoxes label{
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 22px;
+}
+
+.checkBoxStyle .fa-arrow-right{
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    margin-left: 10px;
+    margin-right: 10px;
+}
