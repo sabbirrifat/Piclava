@@ -37,9 +37,9 @@ function Footer(props) {
       <section id="footer">
         
         {props.mode === "dashboard" ? (
-          <img src="images/wave7.png" className="footer-img" alt="" />
+          <img src="/images/wave7.png" className="footer-img" alt="" />
         ) : (
-          <img src="images/wave5.png" className="footer-img" alt="" />
+          <img src="/images/wave5.png" className="footer-img" alt="" />
         )}
 
         <div className="container-fluid footer">
