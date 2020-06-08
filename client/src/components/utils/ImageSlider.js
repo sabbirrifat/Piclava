@@ -26,7 +26,7 @@ function ImageSlider(props) {
             <img
               className="d-block w-100"
               style={{ height: "250px" }}
-              src={`http://localhost:5000/${image}`}
+              src={`/${image}`}
               alt="productImage"
             />
           </div>
